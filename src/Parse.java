@@ -57,7 +57,13 @@ public class Parse {
             nlp.annotate(anno);
             List<CoreMap> sentences = anno.get(CoreAnnotations.SentencesAnnotation.class);
 
+            int sc=0;
+            for(CoreMap sentence : sentences)
+            {
+                sc++;
 
+
+            }
 
         }
         catch (Exception ee)
